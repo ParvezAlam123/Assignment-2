@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+
+\title{Assignment 2}
+\author{Parvez Alam : AI21RESCH01005}
+\date{February 2021}
+
+\begin{document}
+
+\maketitle
+\begin{multicols}{2}
+
+\section{Prob. 1.15}
+\textbf{ A box of orange is inspected by examining three randomly selected oranges drawn without replacement. If all the three oranges are good, the box is approved for sale, otherwise, it is rejected. Find the probability that a box containing 15 oranges out of which 12 are good and 3 are bad ones will be approved for sale.} \\
+\textbf{Solution:}\\ E= The probability that the box will be approved for sale \\
+A= probability of being first orange good \\
+B=probability of being second orange \\
+C=probability of being third orange good \\ \\
+\[P(A)=\(\frac{12}{15}\)\]\\ 
+\[P(B|A)=\(\frac{11}{14}\)\] \\ 
+\[P(C|A,B)=\(\frac{10}{13}\)\] \\ 
+\[P(E)=P(A) \times P(B|A) \times P(C|A,B)\]
+\[P(E)=\(\frac{12}{15}\times \frac{11}{14} \times \frac{10}{13}\)\]\\ 
+\[=\(\frac{1320}{2730}\)\] \\ 
+\[=0.483 \]
+
+\end{multicols}
+\end{document}
